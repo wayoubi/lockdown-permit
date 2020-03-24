@@ -74,7 +74,7 @@ public class SingingApp {
      */
     public static BufferedImage generatePDF_417BarcodeImage(String barcodeText) throws Exception {
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
-        BitMatrix bitMatrix = qrCodeWriter.encode(barcodeText, BarcodeFormat.QR_CODE, 300, 150);
+        BitMatrix bitMatrix = qrCodeWriter.encode(barcodeText, BarcodeFormat.QR_CODE, 500, 500);
         return MatrixToImageWriter.toBufferedImage(bitMatrix);
     }
 
