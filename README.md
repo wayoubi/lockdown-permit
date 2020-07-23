@@ -2,7 +2,7 @@
 
 ## Introduction
 A Proof of Concept to generate digitally signed QR barcodes, PKI digitally signed barcode helps prevent 
-faking lockdown permits during COVID-19 breakdown
+faking lockdown permits during COVID-19 breakout
 
 ## How to Build and Run the System
 Make sure you have Maven, github and Java 8 jdk installed on your computer
